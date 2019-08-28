@@ -19,6 +19,6 @@ app.get('/:sub', (req, res) => {
     });
 });
 
-app.listen(80, '192.168.0.14', () => {
+app.listen(80, 'localhost', () => {
     console.log("Web Server Has Started.");
 });
